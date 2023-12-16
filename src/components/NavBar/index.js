@@ -2,7 +2,7 @@
 import './index.css'
 
 const NavBar = props => {
-  const {imageUrl, alt, score, topScore} = props
+  const {imageUrl, alt, score, topScore,isGameInProgress} = props
   return (
     <div className="navBarContainer">
       <div className="emojiImageWithText">
