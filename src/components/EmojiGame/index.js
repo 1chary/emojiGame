@@ -101,6 +101,7 @@ class EmojiGame extends Component {
             alt="emoji logo"
             topScore={topScore}
             score={clickedEmojiList.length}
+            isGameInProgress = {isGameInProgress}
           />
         </div>
         <div className="onlyBackground">
