@@ -1,0 +1,24 @@
+/* Write your code here. */
+.navBarContainer {
+  height: 10vh;
+  background-color: #9796f0;
+  display: flex;
+  justify-content: space-around;
+}
+.emojiImageWithText {
+  display: flex;
+}
+.scoreContainer {
+  display: flex;
+}
+
+.para {
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.headingText {
+  color: white;
+  font-size: 24px;
+}

@@ -1,0 +1,33 @@
+/* Write your code here. */
+
+.individualContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 220px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 10px solid #ffffff30;
+}
+.emojiPhoto {
+  height: 80px;
+  width: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .individualContainer {
+    height: 40px;
+    width: 40px;
+    margin-right: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 10px solid #ffffff30;
+  }
+}
+.btn {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}

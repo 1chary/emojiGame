@@ -1,0 +1,58 @@
+/* Write your code here. */
+
+.backgroundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  min-height: 50vh;
+  min-width: 60%;
+}
+@media screen and (min-width: 768px) {
+  .backgroundContainer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.photo {
+  height: 350px;
+  width: 300px;
+}
+
+.winOrLoseText {
+  color: white;
+  font-size: 34px;
+}
+
+.playBtn {
+  background-color: #ffce27;
+  height: 30px;
+  width: 80px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.scoreTitle {
+  color: white;
+  font-size: 18px;
+}
+.scoreInBlue {
+  color: #6a59ff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .scoreCard {
+    order: 1;
+  }
+}
+@media screen and (max-width: 767px) {
+  .belowPart {
+    margin-left: 10px;
+  }
+}
