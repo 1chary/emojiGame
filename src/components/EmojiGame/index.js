@@ -33,7 +33,7 @@ class EmojiGame extends Component {
       this.finishTheGameAndSetupTopScore(clickedEmojiListLength)
     } else {
       // if all emoji are clicked exactly once then emojiList length will be equal to clickedEmojiListLength
-      if (emojisList.length - 1 === clickedEmojiListLength) {
+      if (emojisList.length === clickedEmojiListLength) {
         this.finishTheGameAndSetupTopScore(clickedEmojiListLength)
       }
       this.setState(prevState => ({
