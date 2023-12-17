@@ -20,7 +20,7 @@ const WinOrLoseCard = props => {
   return (
     <div className="backgroundContainer">
       <div className="scoreCard">
-        <img src={url} className="photo" />
+        <img src={url} className="photo" alt = "win or lose"/>
       </div>
       <div className="belowPart">
         <h1 className="winOrLoseText">{text}</h1>
